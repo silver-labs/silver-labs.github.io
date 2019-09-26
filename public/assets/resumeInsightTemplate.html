@@ -1,0 +1,70 @@
+<script>
+  window.addEventListener('message', function(event) {
+    if (typeof event.data.call=='sendValue') {
+        // Do something with event.data.value;
+        alert(event.data.value);
+    }
+    alert(event);
+}, false);
+</script>
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Resume Summary
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body skills-body bg">
+        <div id="person_summary_tagline">Mouse over to see individual skills
+          <div style="display:none;" id="loading-div">
+            <img src="img/loading3.svg" style="margin-left:30px;">
+          </div>
+          <div class="col-md-6">
+            <div id="dynamic"></div>
+          </div>
+          <div class="col-md-6">
+            <div id="experience"></div>
+            <div id="employerindustry"></div>
+            <div id="skill-pills"></div>
+            <div id="skill-pills-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            Skills And Job Titles Recommendations
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body bg">
+          <div id="unidentifiedJobTitles"></div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            General Recommendations
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body bg general-recommendations">
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

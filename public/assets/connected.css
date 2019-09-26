@@ -1,0 +1,69 @@
+#connected-popup {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    z-index: 147483645;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+#connected-popup, #connected-popup * {
+    box-sizing: content-box;
+}
+
+#connected-popup a.tab {
+    background: white;
+    border-radius: 3px 0px 0px 3px;
+    cursor: pointer;
+    display: block;
+    height: 80px;
+    left: -75px;
+    position: absolute;
+    top: 100px;
+    width: 74px;
+}
+
+#connected-popup a.tab img {
+    border: none;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    margin: 0px;
+    outline: none;
+    padding: 0px;
+    position: absolute;
+    right: 2px;
+    top: 0px;
+    width: auto;
+    height: auto;
+    background: transparent;
+}
+
+#connected-popup a.tab em {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    height: 15px;
+    line-height: 15px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 29px;
+    text-decoration: none;
+    top: 15px;
+    background: transparent;
+}
