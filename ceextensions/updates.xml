@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
   <app appid='kapdhfhimebdefddondeppflbnjmhimc'>
-    <updatecheck codebase='https://silver-labs.github.io/extensions/ce/CE_extension.crx' version='3.1.38' prodversionmin='64.0.3242' />
+    <updatecheck codebase='https://cdn.silverlabs.online/extensions/ce/CE_extension.crx' version='3.1.39' prodversionmin='64.0.3242' />
   </app>
 </gupdate>
